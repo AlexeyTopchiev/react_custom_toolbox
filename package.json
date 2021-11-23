@@ -5,6 +5,10 @@
   "repository": "git@github.com:AlexeyTopchiev/react_custom_toolbox.git",
   "author": "AlexeyTopchiev <wearelols001@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "typegen": "kea-typegen write ./src"
+  },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
